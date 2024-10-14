@@ -1,1 +1,1 @@
-# Python
+# SK-AI-Data-Academy
