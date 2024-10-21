@@ -20,26 +20,7 @@ If one encounters errors when loading the data, adding engine='openpyxl' can oft
 excel = pd.read_excel('path/seoul_transportation.xlsx', sheet_name='railway')
 excel.head()
 
-<style scoped> .dataframe tbody tr th:only-of-type {vertical-align: middle;}
-.dataframe tbody tr th {
-    vertical-align: top;
-}
-.dataframe thead th {
-    text-align: right;
-}
-</style>
-
-
 excel = pd.read_excel('path/seoul_transportation.xlsx', sheet_name='bus') excel.head()
-
-<style scoped> .dataframe tbody tr th:only-of-type { vertical-align: middle; }
-.dataframe tbody tr th {
-    vertical-align: top;
-}
-.dataframe thead th {
-    text-align: right;
-}
-</style>
 
 # If one specifies sheet_name as None, it will retrieve all sheets from the Excel file. 
 # When fetching, it is returned as an OrderedDict, and one can use keys() to view the sheet names.
@@ -54,25 +35,7 @@ dict_keys(['railway', 'bus'])
 
 excel['railway].head()
 
-<style scoped> .dataframe tbody tr th:only-of-type { vertical-align: middle; }
-.dataframe tbody tr th {
-    vertical-align: top;
-}
-.dataframe thead th {
-    text-align: right;
-}
-</style>
-
 excel['bus'].head()
-
-<style scoped> .dataframe tbody tr th:only-of-type { vertical-align: middle; }
-.dataframe tbody tr th {
-    vertical-align: top;
-}
-.dataframe thead th {
-    text-align: right;
-}
-</style>
 
 # Excel - Save
 """
@@ -83,15 +46,6 @@ One can also specify sheet_name to change the name of the sheet being saved.
 
 excel = pd.read_excel('path/seoul_transportation.xlsx', sheet_name='railway') 
 excel.head()
-
-<style scoped> .dataframe tbody tr th:only-of-type { vertical-align: middle; }
-.dataframe tbody tr th {
-    vertical-align: top;
-}
-.dataframe thead th {
-    text-align: right;
-}
-</style>
 
 # Saving without specified sheet_name
 excel.to_excel('sample.xlsx', index=True)
@@ -109,15 +63,6 @@ Compared to Excel, CSV files are much lighter and take up less space, which is w
 df = pd.read_csv('path/seoul_population.csv')
 df
 
-<style scoped> .dataframe tbody tr th:only-of-type { vertical-align: middle; }
-.dataframe tbody tr th {
-    vertical-align: top;
-}
-.dataframe thead th {
-    text-align: right;
-}
-</style>
-
 # CSV - Saving
 # Way to save CSV files is similar to excel. However, for CSV file format, it does not have sheet_name
 df = pd.read_csv('data/seoul_population.csv')
@@ -128,15 +73,6 @@ df.to_csv('sample.csv', index=False)
 # Can save imported Excel file as CSV
 excel = pd.read_excel('path/seoul_transportation.xlsx', sheet_name='bus', engine='openpyxl')
 excel.head()
-
-<style scoped> .dataframe tbody tr th:only-of-type { vertical-align: middle; }
-.dataframe tbody tr th {
-    vertical-align: top;
-}
-.dataframe thead th {
-    text-align: right;
-}
-</style>
 
 excel.to_csv('sample1.csv', index=False)
 
@@ -166,15 +102,6 @@ pprint.pprint(json_data)
 df = pd.read_json(url) 
 df
 
-<style scoped> .dataframe tbody tr th:only-of-type { vertical-align: middle; }
-.dataframe tbody tr th {
-    vertical-align: top;
-}
-.dataframe thead th {
-    text-align: right;
-}
-</style>
-
 # Save file in JSON format
 df.to_json('currency.json')
 
@@ -193,15 +120,6 @@ dict_keys(['2020 Jan'], ['2020 Feb'], ['2020 Mar'], ['2020 Apr'], ['2020 May'], 
 # Load 2020 Oct sheet to sample_202010
 sample_202010 = pd.read_excel('path/file_sample.xlsx', sheet_name='2020 Oct') 
 sample_202010.head()
-
-<style scoped> .dataframe tbody tr th:only-of-type { vertical-align: middle; }
-.dataframe tbody tr th {
-    vertical-align: top;
-}
-.dataframe thead th {
-    text-align: right;
-}
-</style>
 
 # Export sample_202010 to 2020-10-oil-price.csv
 # Do not specify index
