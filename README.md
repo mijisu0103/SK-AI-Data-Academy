@@ -1,24 +1,20 @@
+<div align="justify">
+  
 # SK-AI-Data-Academy 🤖
 
-<div style = "text-align: justify;">
-  This repository includes content I learned while taking an online course, SK AI Data Academy (SKADA).   
-</div>
+This repository includes content I learned while taking an online course, SK AI Data Academy (SKADA).   
 
 <br>
 
 ## About SK AI Data Academy ❓
-<div style = "text-align: justify;">
-  SKADA, an online course organized by SK Group (South Korea), was launched in July 2024 for the first time. This programme targets university students who want to learn the foundational level of Python programming, Data Analysis, and Machine Learning.  
+SKADA, an online course organized by SK Group (South Korea), was launched in July 2024 for the first time. This programme targets university students who want to learn the foundational level of Python programming, Data Analysis, and Machine Learning.  
   
-  I removed all the company-related data due to their data protection regulation, hence this repository only contains non-confidential data. 
-</div>
+I removed all the company-related data due to their data protection regulation, hence this repository only contains non-confidential data. 
 
 <br>
 
 ## Motivation to take this course ⚙️
-<div style = "text-align: justify;">
-  I chose to take the SKADA course to enhance my skill set and become more versatile in today's rapidly evolving technology landscape. With a background in culture, media, and creative industries, I recognised the importance of technical proficiency in leveraging new tools and technologies. I realised that the course not only equipped me with essential programming skills but also enhanced my problem-solving abilities, allowing me to tackle complex challenges through data-informed decisions. As I pursue my Master's in Computer Science, this foundational knowledge supports my academic endeavours and empowers me to innovate within my field. Ultimately, I believe that combining my creative background with these technical skills will set me apart and enable me to make a meaningful impact in the industry.
-</div>
+I chose to take the SKADA course to enhance my skill set and become more versatile in today's rapidly evolving technology landscape. With a background in culture, media, and creative industries, I recognised the importance of technical proficiency in leveraging new tools and technologies. I realised that the course not only equipped me with essential programming skills but also enhanced my problem-solving abilities, allowing me to tackle complex challenges through data-informed decisions. As I pursue my Master's in Computer Science, this foundational knowledge supports my academic endeavours and empowers me to innovate within my field. Ultimately, I believe that combining my creative background with these technical skills will set me apart and enable me to make a meaningful impact in the industry.
 
 <br>
 
@@ -97,9 +93,10 @@
 <br>
 
 ## Reflection 🪞
-<div style = "text-align: justify;">
-  Reflecting on my experience with the SKADA course, I feel a strong sense of accomplishment in enhancing my technical skills and problem-solving abilities. This foundational knowledge has sparked a deeper interest in the field of machine learning, and I am eager to challenge myself further by exploring more advanced concepts. I plan to continue my learning journey by diving into deep learning and artificial intelligence, as I believe these areas hold immense potential for innovation. By expanding my expertise in these cutting-edge technologies, I aim to merge my creative background with advanced analytical skills, ultimately contributing to impactful solutions in the tech industry.
-</div>
+
+Reflecting on my experience with the SKADA course, I feel a strong sense of accomplishment in enhancing my technical skills and problem-solving abilities. This foundational knowledge has sparked a deeper interest in the field of machine learning, and I am eager to challenge myself further by exploring more advanced concepts. I plan to continue my learning journey by diving into deep learning and artificial intelligence, as I believe these areas hold immense potential for innovation. By expanding my expertise in these cutting-edge technologies, I aim to merge my creative background with advanced analytical skills, ultimately contributing to impactful solutions in the tech industry.
 
 <br>
+  
+</div>
 
